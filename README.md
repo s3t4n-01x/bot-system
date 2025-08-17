@@ -1,4 +1,4 @@
-# BOT SCURITY SYSTEM
+## BOT SCURITY SYSTEM
 
 Sebuah script Python sederhana untuk simulasi **proteksi domain/server** terhadap:
 - IP mencurigakan
@@ -31,16 +31,25 @@ Pastikan sudah install:
 Opsional (jika ingin support DNS lebih advance):  
 ```bash
 pip install dnspython
+````
 
-## Cara Install & Jalankan
+---
+
+## ⚙️ Cara Install & Jalankan
+
+Clone repository atau copy script, lalu jalankan:
+
 ```bash
 git clone https://github.com/username/bot-scurity-system.git
 cd bot-scurity-system
 python bot-system.py
+```
 
-## Contoh ouput
+---
 
-```yaml
+## 🔍 Contoh Output
+
+```text
 ==================================================
    █▄▄ █▀█ ▀█▀   █▀ █▀▀ █░█ █▀█ █ █▄░█ █▀
    █▄█ █▄█ ░█░   ▄█ ██▄ █▀█ █▀▄ █ █░▀█ ▄█
@@ -67,5 +76,4 @@ Masukkan domain atau IP server: example.com
 [✔] Proses keamanan selesai. Target dalam status aman!
 
 [💾] Hasil scan telah disimpan di file: security_log.txt
-
-
+```
